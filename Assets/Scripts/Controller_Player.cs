@@ -23,6 +23,7 @@ public class Controller_Player : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         col = GetComponent<CapsuleCollider2D>();
         rb.freezeRotation = true;
+        rb.collisionDetectionMode = CollisionDetectionMode2D.Continuous;
         rb.gravityScale = 3f;
     }
 
