@@ -878,7 +878,7 @@ Transform:
   m_GameObject: {fileID: 461733340}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0.9999975, z: -0, w: -0.0022570747}
-  m_LocalPosition: {x: 33.21, y: 1.82, z: 0.01}
+  m_LocalPosition: {x: 3.6, y: 1.82, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -931,10 +931,10 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -12.223374, y: 3.4577832}
-      - {x: -9.217185, y: 5.947141}
+      - {x: -9.001421, y: 5.947141}
       - {x: -9.162036, y: -6.15891}
-      - {x: -11.72707, y: -10.869963}
-      - {x: -14.951406, y: -6.1612296}
+      - {x: -9.065993, y: -8.424671}
+      - {x: -14.304115, y: -8.462681}
   m_UseDelaunayMesh: 1
 --- !u!1 &476019583
 GameObject:
@@ -1785,7 +1785,7 @@ Transform:
   m_GameObject: {fileID: 614759462}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.06, y: -1.02, z: 0}
+  m_LocalPosition: {x: -22.7, y: 3.6, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1837,11 +1837,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 9.166736, y: -4.8377643}
-      - {x: -9.297612, y: -4.8533034}
-      - {x: -9.368553, y: -7.3222246}
-      - {x: 44.59594, y: -7.6465607}
-      - {x: 42.454674, y: -3.7890944}
+    - - {x: 10.786294, y: -9.525589}
+      - {x: -4.5492964, y: -9.494861}
+      - {x: -4.495655, y: -10.326401}
+      - {x: 35.191845, y: -10.604467}
+      - {x: 34.96557, y: -9.594547}
   m_UseDelaunayMesh: 1
 --- !u!1 &619394800
 GameObject:
@@ -3575,7 +3575,7 @@ Transform:
   m_GameObject: {fileID: 1338129360}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: -26, y: 7.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3627,12 +3627,12 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: 9.814484, y: 5.3898144}
-      - {x: 3.2494059, y: 5.427759}
-      - {x: -10.315695, y: 5.441165}
-      - {x: -10.409987, y: -8.586313}
-      - {x: 44.911427, y: -8.995182}
-      - {x: 45.021507, y: 5.183337}
+    - - {x: 9.983776, y: 7.6962547}
+      - {x: 3.4794245, y: 7.6667356}
+      - {x: -1.2906055, y: 7.7940316}
+      - {x: -1.232934, y: -14.239045}
+      - {x: 38.271652, y: -14.569222}
+      - {x: 38.34347, y: 7.6059484}
   m_UseDelaunayMesh: 1
 --- !u!1 &1338830231
 GameObject:
@@ -3770,10 +3770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3830bf1a3356a4373b8e1d2f25de390a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ChangeSceneOnTouch
-  sceneName: schena 2
-  requireTag: 1
-  requiredTag: Player
-  sceneTransition: {fileID: 2135384121}
 --- !u!60 &1339016592
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -4492,7 +4488,7 @@ Transform:
   m_GameObject: {fileID: 1621526186}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.16, y: 0.59, z: 0}
+  m_LocalPosition: {x: -17.4, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4544,11 +4540,11 @@ PolygonCollider2D:
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -12.223374, y: 3.4577832}
-      - {x: -10.406528, y: 6.1949186}
-      - {x: -10.353377, y: -7.9505835}
-      - {x: -14.520189, y: -8.263102}
-      - {x: -14.35274, y: -5.6224327}
+    - - {x: -12.082234, y: 3.4577832}
+      - {x: -10.05368, y: 6.2654886}
+      - {x: -10.000527, y: -7.174317}
+      - {x: -13.814493, y: -7.133986}
+      - {x: -13.858756, y: -5.6224327}
   m_UseDelaunayMesh: 1
 --- !u!1 &1621530375
 GameObject:
