@@ -4,11 +4,20 @@ public class PlayerInteraction : MonoBehaviour
 {
     public GameObject currentNPC;
 
+    private DialogueManager dialogueManager;
+
+    void Start()
+    {
+        dialogueManager = FindObjectOfType<DialogueManager>();
+    }
+
     void Update()
     {
         if (currentNPC != null && Input.GetKeyDown(KeyCode.E))
         {
-            currentNPC.GetComponent<DialogueTrigger>().TriggerDialogue();
+            DialogueTrigger trigger = currentNPC.GetComponent<DialogueTrigger>();
+            if (trigger != null)
+                trigger.TriggerDialogue();
         }
     }
 

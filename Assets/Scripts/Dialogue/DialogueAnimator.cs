@@ -21,6 +21,11 @@ public class DialogueAnimator : MonoBehaviour
     {
         if (follower != null)
             follower.SetTarget(transform);
+        if (dm != null)
+        {
+            dm.dialogueText.text = "";
+            dm.nameText.text = "";
+        }
         dialogueWindow.SetActive(true);
         startAnim.SetBool("startOpen", true);
     }

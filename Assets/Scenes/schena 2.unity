@@ -872,6 +872,7 @@ GameObject:
   - component: {fileID: 154239647}
   - component: {fileID: 154239646}
   - component: {fileID: 154239645}
+  - component: {fileID: 154239649}
   m_Layer: 0
   m_Name: Player (1)
   m_TagString: Player
@@ -980,6 +981,19 @@ Transform:
   - {fileID: 738821352}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &154239649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 154239644}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
+  currentNPC: {fileID: 0}
 --- !u!1 &159220656
 GameObject:
   m_ObjectHideFlags: 0
@@ -2073,10 +2087,9 @@ GameObject:
   - component: {fileID: 398631690}
   - component: {fileID: 398631689}
   - component: {fileID: 398631688}
-  - component: {fileID: 398631687}
   m_Layer: 0
   m_Name: untitled_0002_0
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2155,19 +2168,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &398631687
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 398631684}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 398631684}
 --- !u!114 &398631688
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2466,10 +2466,9 @@ GameObject:
   - component: {fileID: 476068736}
   - component: {fileID: 476068735}
   - component: {fileID: 476068734}
-  - component: {fileID: 476068733}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2489,19 +2488,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2094004741}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &476068733
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 476068731}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 476068731}
 --- !u!114 &476068734
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3882,10 +3868,9 @@ GameObject:
   - component: {fileID: 819377092}
   - component: {fileID: 819377091}
   - component: {fileID: 819377090}
-  - component: {fileID: 819377089}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3905,19 +3890,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1056588032}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &819377089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 819377087}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 819377087}
 --- !u!114 &819377090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6987,10 +6959,9 @@ GameObject:
   - component: {fileID: 1839293216}
   - component: {fileID: 1839293215}
   - component: {fileID: 1839293214}
-  - component: {fileID: 1839293213}
   m_Layer: 0
   m_Name: d2
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7010,19 +6981,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2094004741}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1839293213
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1839293211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 1839293211}
 --- !u!114 &1839293214
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8063,10 +8021,9 @@ GameObject:
   - component: {fileID: 2069100847}
   - component: {fileID: 2069100846}
   - component: {fileID: 2069100845}
-  - component: {fileID: 2069100844}
   m_Layer: 0
   m_Name: untitled_0004_0
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8146,19 +8103,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &2069100844
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2069100841}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 2069100841}
 --- !u!114 &2069100845
 MonoBehaviour:
   m_ObjectHideFlags: 0

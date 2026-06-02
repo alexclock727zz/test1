@@ -1603,10 +1603,9 @@ GameObject:
   - component: {fileID: 421324258}
   - component: {fileID: 421324257}
   - component: {fileID: 421324256}
-  - component: {fileID: 421324255}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1626,19 +1625,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1469626729}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &421324255
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 421324253}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 421324253}
 --- !u!114 &421324256
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2405,10 +2391,9 @@ GameObject:
   - component: {fileID: 492698628}
   - component: {fileID: 492698627}
   - component: {fileID: 492698626}
-  - component: {fileID: 492698625}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2428,19 +2413,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1339132175}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &492698625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 492698623}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 492698623}
 --- !u!114 &492698626
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3687,7 +3659,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 2
+  m_SortingOrder: 3
   m_MaskInteraction: 0
   m_Sprite: {fileID: 6483070468156618970, guid: b055439e7cca07a43805b0fd1c13a2f4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4339,7 +4311,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 3
+  m_SortingOrder: 5
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7425557850605893435, guid: af816d9a911f2a441a58de6ae569ccb9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -4751,10 +4723,9 @@ GameObject:
   - component: {fileID: 775743013}
   - component: {fileID: 775743012}
   - component: {fileID: 775743011}
-  - component: {fileID: 775743010}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4774,19 +4745,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 384654201}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &775743010
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 775743008}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 775743008}
 --- !u!114 &775743011
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5271,10 +5229,9 @@ GameObject:
   - component: {fileID: 821678089}
   - component: {fileID: 821678088}
   - component: {fileID: 821678087}
-  - component: {fileID: 821678086}
   m_Layer: 0
   m_Name: d2
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5294,19 +5251,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1360172883}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &821678086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 821678084}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 821678084}
 --- !u!114 &821678087
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5674,10 +5618,9 @@ GameObject:
   - component: {fileID: 892545653}
   - component: {fileID: 892545652}
   - component: {fileID: 892545651}
-  - component: {fileID: 892545650}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5697,19 +5640,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1258978164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &892545650
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 892545648}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 892545648}
 --- !u!114 &892545651
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7248,10 +7178,9 @@ GameObject:
   - component: {fileID: 1103557324}
   - component: {fileID: 1103557323}
   - component: {fileID: 1103557322}
-  - component: {fileID: 1103557321}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7271,19 +7200,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1067032492}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1103557321
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1103557319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 1103557319}
 --- !u!114 &1103557322
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8560,10 +8476,9 @@ GameObject:
   - component: {fileID: 1333996284}
   - component: {fileID: 1333996283}
   - component: {fileID: 1333996282}
-  - component: {fileID: 1333996281}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8583,19 +8498,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 760764649}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1333996281
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1333996279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 1333996279}
 --- !u!114 &1333996282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9250,10 +9152,9 @@ GameObject:
   - component: {fileID: 1364298788}
   - component: {fileID: 1364298787}
   - component: {fileID: 1364298786}
-  - component: {fileID: 1364298785}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9273,19 +9174,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1360172883}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1364298785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1364298783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 1364298783}
 --- !u!114 &1364298786
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9974,10 +9862,9 @@ GameObject:
   - component: {fileID: 1484892211}
   - component: {fileID: 1484892210}
   - component: {fileID: 1484892209}
-  - component: {fileID: 1484892208}
   m_Layer: 0
   m_Name: d1
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9997,19 +9884,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 967727221}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1484892208
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1484892206}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 1484892206}
 --- !u!114 &1484892209
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11421,6 +11295,7 @@ GameObject:
   - component: {fileID: 1786443988}
   - component: {fileID: 1786443987}
   - component: {fileID: 1786443986}
+  - component: {fileID: 1786443990}
   m_Layer: 0
   m_Name: Player (1)
   m_TagString: Player
@@ -11529,6 +11404,19 @@ Transform:
   - {fileID: 614238391}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1786443990
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1786443985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
+  currentNPC: {fileID: 0}
 --- !u!1 &1863203452
 GameObject:
   m_ObjectHideFlags: 0
@@ -11632,10 +11520,9 @@ GameObject:
   - component: {fileID: 1908852545}
   - component: {fileID: 1908852544}
   - component: {fileID: 1908852543}
-  - component: {fileID: 1908852542}
   m_Layer: 0
   m_Name: d2
-  m_TagString: Untagged
+  m_TagString: NPC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11655,19 +11542,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1258978164}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1908852542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1908852540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e63902e59117b74ebdcd18e40d4de2c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteraction
-  currentNPC: {fileID: 1908852540}
 --- !u!114 &1908852543
 MonoBehaviour:
   m_ObjectHideFlags: 0

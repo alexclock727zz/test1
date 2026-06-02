@@ -21,7 +21,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue(Dialogue dialogue)
     {
-        if (isDialogueActive) return;
+        if (isDialogueActive) EndDialogue();
         isDialogueActive = true;
 
         boxAnim.SetBool("boxOpen", true);
@@ -61,5 +61,7 @@ public class DialogueManager : MonoBehaviour
     {
         isDialogueActive = false;
         boxAnim.SetBool("boxOpen", false);
+        dialogueText.text = "";
+        nameText.text = "";
     }
 }
