@@ -33,10 +33,20 @@ public class DialogueManager : MonoBehaviour
         nameText.text = dialogue.name;
         sentences.Clear();
 
-        // Создаём список предложений
         List<DialogueSentence> list = new List<DialogueSentence>(dialogue.sentences);
 
-        // Рандомизация порядка
+        // ---------- НОВАЯ ЛОГИКА ----------
+        // Если диалог называется "Подсолнухи" и флаг hasKey уже true,
+        // то показываем только первые две реплики (убираем третью)
+        if (dialogue.name == "Подсолнухи" && GameState.hasKey)
+        {
+            // Оставляем только первые два предложения, если их не меньше двух
+            if (list.Count >= 2)
+                list.RemoveRange(2, list.Count - 2);
+        }
+        // ---------------------------------
+
+        // Далее идёт существующий код рандомизации и ограничения
         if (randomOrder)
         {
             for (int i = 0; i < list.Count; i++)
@@ -48,7 +58,6 @@ public class DialogueManager : MonoBehaviour
             }
         }
 
-        // Ограничение количества
         int count = (maxSentencesToShow > 0 && maxSentencesToShow < list.Count) ? maxSentencesToShow : list.Count;
         for (int i = 0; i < count; i++)
         {
