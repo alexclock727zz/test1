@@ -4,8 +4,8 @@ using System.Collections;
 public class SunflowerDialogueEvents : MonoBehaviour
 {
     public GameObject noteObject;        // Объект заметки, который надо показать (zametki untitled)
-    public float displayDuration = 1.75f;   // Время отображения заметки
-    public float delayBeforeShow = 0.75f; // Задержка перед появлением заметки
+    public float displayDuration = 0.05f;   // Время отображения заметки
+    public float delayBeforeShow = 1f; // Задержка перед появлением заметки
 
     private bool alreadyTriggered = false;
 
